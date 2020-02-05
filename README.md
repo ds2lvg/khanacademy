@@ -1,6 +1,7 @@
 - math
-  - Pre-algrebra : 대수학 입문
-  - Algrebra : 대수학
+  - Pre-algrebra : 기초 대수학
+  - Algebra_basics : 대수학 입문
+  - Algrebra : 대수학 I
 
 ## 수학 특수문자
 - 곱하기 ·
