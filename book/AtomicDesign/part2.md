@@ -5,5 +5,5 @@
 
 ![](./img/0_sM8M-3ib-vOv2xbb.png)
 
-- 파파고 참고해서 이어서 번역하기
+- 이어서 번역하기
 https://medium.muz.li/building-design-systems-with-atomic-design-93a13286f676
