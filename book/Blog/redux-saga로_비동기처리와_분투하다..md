@@ -1,4 +1,4 @@
-https://webcache.googleusercontent.com/search?q=cache:E9zZxYBSHZcJ:https://github.com/reactkr/learn-react-in-korean/blob/master/translated/deal-with-async-process-by-redux-saga.md+&cd=4&hl=ko&ct=clnk&gl=kr
+https://github.com/reactkr/learn-react-in-korean/blob/master/translated/deal-with-async-process-by-redux-saga.md
 
 ## redux-saga
 - "Task" 개념을 Redux로 가져오기위한 지원 라이브러리
