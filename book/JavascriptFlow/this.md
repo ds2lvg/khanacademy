@@ -30,23 +30,3 @@ var obj = { k: "val" }
 setTimeout(cb, 100) // Window
 setTimeout(cb.bind(obj), 100) // { k: "val" }
 ```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
