@@ -1,4 +1,7 @@
 - 머터리얼 컬러지정: https://material.io/resources/color/#!/?view.left=0&view.right=0
+- https://jsfiddle.net/ds2lvg/35jonzeh/28/
+  - flex-flow: column-reverse wrap-reverse; align-content: space-between; justify-content: center;
+
 
 ## 1.플렉스 레이아웃 핵심
 - react-native에서도 사용 가능, 여기서는 웹 기준으로 설명
@@ -28,17 +31,18 @@
   - space-evenly  : 똑같은 마진 줘서 배치(첫번째와 마지막 요소도 동일)
   - space-between : Item 사이에만 똑같은 마진줘서 배치 (첫번째의 왼쪽과 마지막 요소의 오른쪽은 마진 안줌)
 - align-items(stretch) : cross axis에서 Item들을 어떻게 배치(정렬)할 것인지
-  - stretch    : 스트레칭 하듯 부모 크기만큼 늘림 -> flex-direction:row일때 Item를 height:100%로 렌더링하는 이유
+  - stretch    : 여러 줄들을 컨테이너 크기만큼 쭉 늘림 -> flex-direction:row일때 Item를 height:100%로 렌더링하는 이유
   - flex-start : 컨텐츠 크기에 맞게 변경해서 main axis 앞쪽에 배치
   - flex-end   : 컨텐츠 크기에 맞게 변경해서 main axis 끝쪽에 배치
   - center     : 중앙 배치
   - baseline   : 패딩등 크기가 다르자면, 텍스트를 기준으로 균등하게 배치
-- align-content(flex-start) : 화면이 줄었을때 cross axis에서 Item들을 어떻게 배치(정렬+간격)할 것인지
-  - flex-wrap: wrap가 선언시 작동
-  - flex-start: main axis 앞쪽에 배치(row라면 왼쪽 배치, column이라면 상단 배치)
-  - flex-end: main axis 끝쪽에 배치(row라면 오른쪽 배치, column이라면 하단 배치)
-  - center : 중앙 배치
-  - space-around : 시작점과 끝점을 나눠서 배치(시작점과 끝점도 여백 존재)
+- align-content(stretch) : 화면이 줄었을때 cross axis에서 Item들을 어떻게 배치(정렬+간격)할 것인지
+  - flex-wrap가 wrap으로 선언시 작동
+  - stretch       : 여러 줄들을 컨테이너에 맞도록 쭉 늘림(한줄만 있을때는 효과X)
+  - flex-start    : main axis 앞쪽에 배치(row라면 왼쪽 배치, column이라면 상단 배치)
+  - flex-end      : main axis 끝쪽에 배치(row라면 오른쪽 배치, column이라면 하단 배치)
+  - center        : 중앙 배치
+  - space-around  : 시작점과 끝점을 나눠서 배치(시작점과 끝점도 여백 존재)
   - space-between : 시작점과 끝점으로 나눠서 배치(시작점과 끝점은 서로 끝점에 여백제거하고 붙임)
 
 ### Item
